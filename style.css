@@ -3,6 +3,10 @@ body{background: linear-gradient(to right, red, green, blue);}
 h1{color: orange;
 text-align: center;}
 
+a:link, a:visited
+{text-decoration: none;
+color: orange;}
+
 
 #przyciski
 {margin-left: 40%; }
