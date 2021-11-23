@@ -9,6 +9,7 @@ dodaj.addEventListener('click', ()=>{
 	let button = document.createElement("button");
     button.classList.add("delete-btn")
     button.innerHTML="   Usuń zadanie"
+button.style.marginLeft="10px;"
 	let div = document.createElement("div");
 	div.innerHTML = input.value   
 	lista.appendChild(dodaneZadanie);
