@@ -12,7 +12,7 @@ dodaj.addEventListener('click', ()=>{
 	let div = document.createElement("div");
 	if (input.value !=="")
 	{div.innerHTML = input.value}
-	else{lista.removeChild(dodaneZadanie);
+	else{lista.removeChild(dodaneZadanie)};
 	lista.appendChild(dodaneZadanie);
     dodaneZadanie.appendChild(div)
     div.appendChild(button)
